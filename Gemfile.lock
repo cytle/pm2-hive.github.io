@@ -33,9 +33,9 @@ GEM
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.2.1)
-    jekyll-lunr-js-search (0.3.0)
-      json (~> 1.8)
-      nokogiri (~> 1.6)
+    jekyll-lunr-js-search (3.3.0)
+      json (~> 2.0)
+      nokogiri (~> 1.7)
       therubyracer (~> 0.12)
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.8.0)
@@ -44,18 +44,18 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    json (1.8.3)
+    json (2.2.0)
     kramdown (1.8.0)
-    libv8 (3.16.14.11)
+    libv8 (3.16.14.19)
     liquid (2.6.3)
     listen (2.10.1)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    mini_portile (0.6.2)
-    nokogiri (1.6.6.2)
-      mini_portile (~> 0.6.0)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
@@ -69,8 +69,8 @@ GEM
     ref (2.0.0)
     safe_yaml (1.0.4)
     sass (3.4.16)
-    therubyracer (0.12.2)
-      libv8 (~> 3.16.14.0)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
       ref
     timers (4.0.1)
       hitimes
@@ -83,10 +83,10 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-lunr-js-search
+  jekyll-lunr-js-search (>= 0.3.0)
   jekyll-redirect-from
   jekyll-watch
   kramdown
 
 BUNDLED WITH
-   1.12.5
+   1.17.3
